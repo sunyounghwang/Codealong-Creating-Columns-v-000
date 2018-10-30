@@ -77,13 +77,13 @@ figcaption {
   background: #eee;
 }
 
-.col-1 {            
+.col-1 {
   float: left;
   width: 32%;
   background: #ccc;
 }
 
-.col-2 {           
+.col-2 {
   float: left;
   width: 66%;
   background: #ccc;
