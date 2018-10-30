@@ -82,9 +82,9 @@ figcaption {
 }
 
 .col-2 {
-
+  float: left;
 }
 
 .col-3 {
-  
+  float: left;
 }
