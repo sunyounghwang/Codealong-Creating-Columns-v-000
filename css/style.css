@@ -71,6 +71,7 @@ figcaption {
   color: red;
 }
 
+/* Layout */
 .wrapper {
   width: 960px;
   margin: 0 auto;     /*centers wrapper*/
@@ -110,10 +111,12 @@ figcaption {
   margin-left: 0%;  /*no margin for first column*/
 }
 
+/* Media */
 img, video, audio {
   max-width: 100%;  /*width fluid, adjusts to parent wrapper*/
 }
 
+/* Sections */
 section {
   margin-bottom: 20px;
   padding: 20px;
