@@ -126,6 +126,13 @@ img, video, audio {
 
 /* Sections */
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 section {
   margin-bottom: 20px;
   padding: 20px;
