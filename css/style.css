@@ -77,20 +77,29 @@ figcaption {
   background: #eee;
 }
 
-.col-1 {
+.col-1 {            #takes up one third of screen
   float: left;
   width: 32%;
   background: #ccc;
 }
 
-.col-2 {
+.col-2 {           #takes up two thirds of screen
   float: left;
   width: 66%;
   background: #ccc;
 }
 
-.col-3 {
+.col-3 {          #takes up whole screen
   background: #ccc;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
 }
 
 [class*="col-"] {
